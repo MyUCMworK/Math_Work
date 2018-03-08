@@ -1,0 +1,10 @@
+t = -4:0.0001:4;
+x = cos(t);
+y = sin(t);
+xlabel("x");
+ylabel("y");
+plot(t, x, '-r', "LineWidth", 2);
+hold on;
+plot(t, y, '-b', "LineWidth", 2);
+ylim([-2, 2]);
+legend("cos(t)", "sin(t)");
